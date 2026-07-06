@@ -22,6 +22,16 @@ on_any_input:
 No per-task "which skill should I use" step for the user — this layer
 picks and chains skills itself. User just states the goal.
 
+## Auto-switch (no manual command needed)
+```
+input mentions/implies:
+  cost/rate-limit issue          -> switch openrouter model + free-model filter
+  wants voice/camera/screen       -> start live-stream session
+  pdf/book/doc to ingest          -> book-learning
+  url to check/debug              -> site-audit
+```
+Detected from intent, not literal command text.
+
 Still bounded by: no destructive/credentialed action without confirm,
 no exploit/malware code, no safety-check removal — same as every
 other skill in this repo.
