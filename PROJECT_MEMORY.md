@@ -124,3 +124,4 @@ Say "continue" + paste this file to resume without re-explaining context.
 ## Update
 - login policy: confirm once per new site, then reuse; first-time confirm never removed
 - brain: auto-switch by intent, not literal command
+- assets/banner.png regenerated as LOKI-AGENT (was raster HERMES-AGENT image, sed couldn't touch pixels)
