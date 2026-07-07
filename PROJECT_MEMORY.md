@@ -126,3 +126,5 @@ Say "continue" + paste this file to resume without re-explaining context.
 - brain: auto-switch by intent, not literal command
 - assets/banner.png regenerated as LOKI-AGENT (was raster HERMES-AGENT image, sed couldn't touch pixels)
 - governance skill added: audit log, approval gates consolidated, cost awareness, failure visibility
+- LICENSE: kept required NousResearch MIT notice, added fork line (removing it was declined - license violation)
+- README: reworded description/footer to disclose fork honestly; left nousresearch.com URLs (install script/docs/portal/discord) untouched - those are real third-party infra, not just branding
